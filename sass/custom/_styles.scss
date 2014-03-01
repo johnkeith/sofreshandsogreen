@@ -1,0 +1,88 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+
+html {
+	background:$page-bg;
+}
+
+body {
+  > div {
+      max-width:920px;
+      background: #fff !important;
+      border-bottom: 0px solid #fff;
+    > div {
+        background: #fff !important;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+      }
+  }
+  > header {
+      text-align: center;
+      padding-top:20px;
+      @media only screen and (min-width: 550px) {
+        padding-top:80px;
+      }
+  }
+  > header img {
+    display:block;
+    margin:0 auto;
+  }
+  > nav {
+    position:relative;
+    z-index:1000;
+    min-width:100%;
+    padding-bottom:.5em;
+    font-size: 1em;
+    @media only screen and (min-width: 550px) {
+      position:fixed;
+    }
+    a {
+      font-family: $serif;
+      font-size: 1em;
+    }
+    ul li a i {
+      margin-left: .3em;
+      padding:.4em 0 0 0;
+      color:#3EBB96;
+    }
+    ul li a i:hover {
+      color: darken(#3EBB96, 25);
+    }
+
+    li + li {
+      
+    }
+    > fieldset.mobile-nav select {
+      border:1px solid #3EBB96;
+      color: $nav-color-hover;
+    }
+  }
+}
+article {
+  header {
+    h1 {
+      margin: 0;
+      a { text-decoration: none;
+        &:hover { text-decoration: none; } }
+    }
+  }
+}
+#blog-archives {
+  h1 {
+    a { text-decoration: none;
+      &:hover { text-decoration:none; } }
+  }
+}
+aside.sidebar {
+  border-top:0px solid #fff;
+  background-color: #fff;
+}
+.portrait {
+  border-radius:50%;
+  padding:3px;
+  border:3px solid #3EBB96;
+}
+article {
+  padding-top:3em;
+}
