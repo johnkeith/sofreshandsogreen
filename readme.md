@@ -30,4 +30,6 @@ Then, back at the terminal, run this command to install Coderay.
 
 	$ bundle install
 
+Also, add a picture of yourself by replacing the portrait.jpg in the source/images folder of your Octopress installation. 
+
 Oh yeah, Font awesome included, so have fun!
