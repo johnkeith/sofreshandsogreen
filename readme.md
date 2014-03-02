@@ -24,7 +24,7 @@ Or, if zsh is giving you grief.
 ### Step 3) Make your codeblocks look better with CodeRay! Add these gems to your gemfile.
 
 	gem 'kramdown'
-  gem 'coderay'
+	gem 'coderay'
 
 Then, back at the terminal, run this command to install Coderay.
 
