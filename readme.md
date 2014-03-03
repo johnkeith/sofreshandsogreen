@@ -46,7 +46,7 @@ Then, back at the terminal, run this command to install Coderay.
 
 	$ bundle install
 
-And lastly, hop over to your _config file and replaced your Markdown line with the following. 
+And lastly, hop over to your _config file and replace your Markdown line with the following. 
 
 ~~~
 markdown: kramdown
