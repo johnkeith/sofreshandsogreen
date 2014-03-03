@@ -51,10 +51,10 @@ Then, back at the terminal, run this command to install Coderay.
 
 For a great explanation of Coderay and kramdown, see [Codebykat's post](http://blog.codebykat.com/2013/05/23/gorgeous-octopress-codeblocks-with-coderay/) on the subject .
 
-Also, if you want to add a picture of yourself to the homepage as in the [demo](http://www.johnkeith.us), you need replacing the portrait.jpg in the source/images folder of your Octopress installation. Then, add to your _config.yml:
+Also, if you want to add a picture of yourself to the homepage as in the [demo](http://www.johnkeith.us), you need to replace the portrait.jpg in the source/images folder of your Octopress installation. Then, add the following somewhere logical in your _config.yml.
 
 	portrait: true
 
-In order to enable your smiling countenance on the blog's main page. (The entire header is disabled by default on pages and individual post pages). 
+This will enable your smiling countenance on the blog's main page. (The entire header is disabled by default on pages and individual post pages). 
 
 Oh yeah, Font awesome is included. Have fun!
