@@ -1,4 +1,4 @@
-# So Fresh and So Green Octopress Theme
+## So Fresh and So Green Octopress Theme
 
 So Fresh and So Green is a straightforward Octopress theme. It focuses on excellent readability.  
 
@@ -20,6 +20,15 @@ Or, if zsh is giving you grief.
 
 	default_asides: []
 	sidebar: collapse
+
+Also, replace your Markdown settings in your _config file with these lines, which will help make step 3 successfully prettify our code snippets.
+	
+	markdown: kramdown
+	kramdown:
+  use_coderay: true
+  coderay:
+    coderay_line_numbers: nil
+    coderay_css: class
 
 ### Step 3) Make your codeblocks look better with CodeRay! Add these gems to your gemfile.
 
