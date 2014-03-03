@@ -30,8 +30,8 @@ Also, replace your Markdown settings in your _config file with these lines, whic
 ~~~
 markdown: kramdown
 kramdown:
- 	use_coderay: true
-  coderay:
+	use_coderay: true
+	coderay:
     coderay_line_numbers: nil
     coderay_css: class
 ~~~
