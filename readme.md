@@ -26,13 +26,15 @@ Make these changes to _config.yml. This will remove the sidebar.
 	sidebar: collapse
 
 Also, replace your Markdown settings in your _config file with these lines, which will help make step 3 successfully prettify our code snippets.
-	
-	markdown: kramdown
-	kramdown:
-  use_coderay: true
+
+~~~
+markdown: kramdown
+kramdown:
+ 	use_coderay: true
   coderay:
     coderay_line_numbers: nil
     coderay_css: class
+~~~
 
 ### Step 3)
 
