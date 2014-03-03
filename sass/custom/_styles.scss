@@ -49,17 +49,15 @@ body {
     ul li a i:hover {
       color: darken(#3EBB96, 25);
     }
-
-    li + li {
-      
-    }
     > fieldset.mobile-nav select {
       border:1px solid #3EBB96;
       color: $nav-color-hover;
     }
   }
 }
+
 article {
+  padding-top:3em;
   header {
     h1 {
       margin: 0;
@@ -68,23 +66,24 @@ article {
     }
   }
 }
+
 #blog-archives {
   h1 {
     a { text-decoration: none;
       &:hover { text-decoration:none; } }
   }
 }
+
 aside.sidebar {
   display:none;
 }
+
 .portrait {
   border-radius:50%;
   padding:3px;
   border:3px solid #3EBB96;
 }
-article {
-  padding-top:3em;
-}
+
 pre {
   border:none;
   background:#fff;

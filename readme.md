@@ -4,6 +4,8 @@ So Fresh and So Green is a straightforward Octopress theme. It focuses on excell
 
 To this end, the Octopress sidebar is disabled and the navigation is affixed to the top.
 
+Click here for a [demo](http://www.johnkeith.us)!
+
 Improvements will be forthcoming, as inspiration strikes!
 
 ### Step 1) 
@@ -49,6 +51,10 @@ Then, back at the terminal, run this command to install Coderay.
 
 For a great explanation of Coderay and kramdown, see [Codebykat's post](http://blog.codebykat.com/2013/05/23/gorgeous-octopress-codeblocks-with-coderay/) on the subject .
 
-Also, add a picture of yourself by replacing the portrait.jpg in the source/images folder of your Octopress installation. 
+Also, if you want to add a picture of yourself to the homepage as in the [demo](http://www.johnkeith.us), you need replacing the portrait.jpg in the source/images folder of your Octopress installation. Then, add to your _config.yml:
+
+	portrait: true
+
+In order to enable your smiling countenance on the blog's main page. (The entire header is disabled by default on pages and individual post pages). 
 
 Oh yeah, Font awesome is included. Have fun!

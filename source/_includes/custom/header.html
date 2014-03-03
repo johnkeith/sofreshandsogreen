@@ -1,5 +1,7 @@
 <hgroup>
-	<img src="{{ root_url }}/images/portrait.jpg" class="portrait" height=250px width=250px />
+	{% if site.portrait %}
+		<img src="{{ root_url }}/images/portrait.jpg" class="portrait" height=250px width=250px />
+	{% endif %}
   <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
   {% if site.subtitle %}
     <h2>{{ site.subtitle }}</h2>
