@@ -47,7 +47,7 @@ Then, back at the terminal, run this command to install Coderay.
 
 	$ bundle install
 
-For a great explanation of Coderay and kramdown, see [Codebykat's post] on the subject (http://blog.codebykat.com/2013/05/23/gorgeous-octopress-codeblocks-with-coderay/).
+For a great explanation of Coderay and kramdown, see [Codebykat's post](http://blog.codebykat.com/2013/05/23/gorgeous-octopress-codeblocks-with-coderay/) on the subject .
 
 Also, add a picture of yourself by replacing the portrait.jpg in the source/images folder of your Octopress installation. 
 
