@@ -32,8 +32,8 @@ markdown: kramdown
 kramdown:
 	use_coderay: true
 	coderay:
-    coderay_line_numbers: nil
-    coderay_css: class
+		coderay_line_numbers: nil
+		coderay_css: class
 ~~~
 
 ### Step 3)
