@@ -1,12 +1,14 @@
 ## So Fresh and So Green Octopress Theme
 
-So Fresh and So Green is a straightforward Octopress theme. It focuses on excellent readability.  
+So Fresh and So Green is a straightforward Octopress theme. It focuses on excellent readability.
 
 To this end, the Octopress sidebar is disabled and the navigation is affixed to the top.
 
 Improvements will be forthcoming, as inspiration strikes!
 
-### Step 1) Install this bad boy. 
+### Step 1) 
+
+Install this bad boy. 
 
 	$ git clone https://github.com/johnkeith/sofreshandsogreen.git .themes/sofreshandsogreen
 		
@@ -16,7 +18,9 @@ Or, if zsh is giving you grief.
 		
 	$ bundle exec rake install\['sofreshandsogreen'\]
 
-### Step 2) Make these changes to _config.yml. This will remove the sidebar.
+### Step 2) 
+
+Make these changes to _config.yml. This will remove the sidebar.
 
 	default_asides: []
 	sidebar: collapse
@@ -30,7 +34,9 @@ Also, replace your Markdown settings in your _config file with these lines, whic
     coderay_line_numbers: nil
     coderay_css: class
 
-### Step 3) Make your codeblocks look better with CodeRay! Add these gems to your gemfile.
+### Step 3)
+
+Make your codeblocks look better with CodeRay! Add these gems to your gemfile.
 
 	gem 'kramdown'
 	gem 'coderay'
