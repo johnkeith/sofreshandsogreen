@@ -10,35 +10,32 @@ Improvements will be forthcoming, as inspiration strikes!
 
 ### Step 1) 
 
-Install this bad boy. 
+Install this bad boy. Navigate to the root of your Octopress install, then run these two commands.
 
 	$ git clone https://github.com/johnkeith/sofreshandsogreen.git .themes/sofreshandsogreen
 		
 	$ bundle exec rake install['sofreshandsogreen']
 
-Or, if zsh is giving you grief.
+Or, if zsh is giving you grief, use this instead of the previous line.
 		
 	$ bundle exec rake install\['sofreshandsogreen'\]
 
 ### Step 2) 
 
-Make these changes to _config.yml. This will remove the sidebar.
+Make these changes to your _config.yml. This will remove the sidebar and make the layout look correct.
 
 	default_asides: []
 	sidebar: collapse
 
-Also, replace your Markdown settings in your _config file with these lines, which will help make step 3 successfully prettify our code snippets.
+### Step 3) 
 
-~~~
-markdown: kramdown
-kramdown:
-	use_coderay: true
-	coderay:
-		coderay_line_numbers: nil
-		coderay_css: class
-~~~
+If you want to add a picture of yourself to the homepage as in the [demo](http://www.johnkeith.us), you need to replace the portrait.jpg in the source/images folder of your Octopress installation. Then, add the following somewhere in your _config.yml.
 
-### Step 3)
+	portrait: true
+
+This will enable your smiling countenance on the blog's main page. (The entire header is disabled by default on pages and individual post pages by using a different layout for these pages, aptly entitled default_no_header.html). 
+
+### (Optional) Step 4)
 
 Make your codeblocks look better with CodeRay! Add these gems to your gemfile.
 
@@ -49,12 +46,19 @@ Then, back at the terminal, run this command to install Coderay.
 
 	$ bundle install
 
-For a great explanation of Coderay and kramdown, see [Codebykat's post](http://blog.codebykat.com/2013/05/23/gorgeous-octopress-codeblocks-with-coderay/) on the subject .
+And lastly, hop over to your _config file and replaced your Markdown line with the following. 
 
-Also, if you want to add a picture of yourself to the homepage as in the [demo](http://www.johnkeith.us), you need to replace the portrait.jpg in the source/images folder of your Octopress installation. Then, add the following somewhere logical in your _config.yml.
+~~~
+markdown: kramdown
+kramdown:
+	use_coderay: true
+	coderay:
+		coderay_line_numbers: nil
+		coderay_css: class
+~~~
 
-	portrait: true
+For a great explanation of Coderay and kramdown, see [Codebykat's post](http://blog.codebykat.com/2013/05/23/gorgeous-octopress-codeblocks-with-coderay/) on the subject.
 
-This will enable your smiling countenance on the blog's main page. (The entire header is disabled by default on pages and individual post pages). 
+### Extra
 
 Oh yeah, Font awesome is included. Have fun!
