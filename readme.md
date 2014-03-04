@@ -2,6 +2,8 @@
 
 So Fresh and So Green is a straightforward Octopress theme. It focuses on excellent readability.
 
+![So Fresh and So Green](http://gdurl.com/i4Wr)
+
 To this end, the Octopress sidebar is disabled and the navigation is affixed to the top.
 
 Click here for a [demo](http://www.johnkeith.us)!
